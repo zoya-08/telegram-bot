@@ -162,7 +162,7 @@ async def set_commands(application):
 
 # --- Основной запуск ---
 def main():
-    application = ApplicationBuilder().token("8496120980:AAErXm6YfyTeHO0H7eH7mRXL-_KsHd2JPvY").build()
+    application = ApplicationBuilder().token("8448630510:AAFEmNnwoqRgKRJZvA1VhxQH9yHCIpuz4uo").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("recipe", recipe))
